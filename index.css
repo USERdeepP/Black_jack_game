@@ -1,0 +1,79 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("table.png");
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+li{
+    display: inline;
+    margin: 50px 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    transition: all 0.3 ease-in 0s;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(240, 248, 255,0.5);
+}
+
+h1 {
+    color: rgb(218, 215, 32);
+    font-size: 48px;
+}
+p{
+    font-size: 25px;
+}
+
+.game{
+    margin: 10px 180px;
+    border: solid 10px chocolate;
+    border-radius: 5px;
+    background-color: rgba(253, 98, 1, 0.358);
+    padding: 25px 25px;
+}
+
+#message-el {
+    font-style: italic;
+    font-size: 25px;
+}
+
+button {
+    font-size: 25px;
+    color: #016f32;
+    background: goldenrod;
+    padding: 15px 15px ;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+button:hover{
+    color :  goldenrod;
+    background : #46c92c;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    display: inline;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
